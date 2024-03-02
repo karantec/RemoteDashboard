@@ -16,6 +16,13 @@ const Sidebar = ({children}) => {
     const menuItem=[
         
         
+        { 
+            path:"/Dashboard",
+            name:"Dashboard",
+            icon:<FaTh/>
+
+        },
+        
         {
             path:"/Account",
             name:"Job Posting",
@@ -25,7 +32,11 @@ const Sidebar = ({children}) => {
             path:"/User",
             name:"Job Details",
             icon:<FaTh/>
+
         },
+      
+        
+
        
         
     ]

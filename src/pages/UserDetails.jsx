@@ -25,7 +25,7 @@ const UserDetails = () => {
 
   const handleDelete = async (id) => {
     try {
-      const response = await fetch(`http://localhost:8000/api/v1/deleteCompany/${id}`, {
+      const response = await fetch(`https://remotebackend-2.onrender.com/api/v1/deleteCompany/${id}`, {
         method: 'DELETE',
       });
   

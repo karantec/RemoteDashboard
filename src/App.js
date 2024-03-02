@@ -5,9 +5,11 @@ import Sidebar from './components/Sidebar';
 import UserDetails from './pages/UserDetails.jsx';
 import AccountCreate from './pages/AccountCreate.jsx';
 
+
 const App = () => {
   return (
     <BrowserRouter>
+    
       <Sidebar>
         <Routes>
         
